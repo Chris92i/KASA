@@ -1,0 +1,74 @@
+
+.collapseStyle{
+    width: 100%;
+    height: 52px;
+    border-radius: 10px;
+    border: transparent;
+    background: #FF6060;
+    
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+
+}
+.contenuCollapse{
+    width: 582px;
+    height: 249px;
+    top: 42px;
+    border-radius: 10px;
+
+
+    background-color: #F6F6F6;
+
+    font-family: Montserrat;
+    font-weight: 400;
+    size: 18px;
+    line-height: 25.67px;
+
+    color:#FF6060;
+    
+}
+
+.collapse_container{
+    display: flex;
+    margin: auto;
+    padding: auto;
+    width: 80%;
+}
+
+.about-content{
+    width: 582px;
+    height: 249px;
+    top: 42px;
+    border-radius: 10px;
+    padding: 5px;
+
+
+    background-color: #F6F6F6;
+
+    font-family: Montserrat;
+    font-weight: 400;
+    size: 18px;
+    line-height: 25.67px;
+
+    color:#FF6060;
+}
+
+.arrow_Collapse{
+    width: 32px;
+    height: 32px;
+    transform: rotate(0deg);
+    flex-shrink: 0;
+    color: #FFFFFF;
+
+}

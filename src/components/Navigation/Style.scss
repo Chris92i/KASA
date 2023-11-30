@@ -1,0 +1,33 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 309px;
+  height: 34px;
+  top: 17px;
+  left: 931px;
+  align-content: center;
+  flex-shrink: 0;
+}
+
+.nav_Header_home {
+  width: 136px;
+  color: #ff6060;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%; /* 34.224px */
+}
+
+.nav_Header_about {
+  width: 116px;
+
+  color: #ff6060;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%; /* 34.224px */
+}

@@ -1,0 +1,40 @@
+.banner_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1240px;
+    height: 223px;
+    top: 171px;
+    left: 100px;
+    border-radius: 25px;
+    z-index: 0;
+    //filter: brightness(0.7);
+    //opacity: 30%;
+    //mix-blend-mode: darken;
+    //background-image: url('/src/assets/homeBanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.banner_container .banner_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 249px;
+    left: 373px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 48px;
+    //line-height: 68.45px;
+    color: #ffffff !important;
+    z-index: 1;
+}
+
+.banner_text{
+    z-index: 2;
+    color: #ffffff !important;
+}
+

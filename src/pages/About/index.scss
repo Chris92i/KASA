@@ -1,0 +1,28 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: auto;
+    gap: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 1240px;
+    height: 1024px;
+}
+
+.collapse_unite{
+    width: 80%;
+}
+
+.collapse_container_about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    min-width: 260px;
+    margin: 32px auto;
+    padding: 32px 0;
+    gap: 32px;
+    //height: 1024px;
+}
+

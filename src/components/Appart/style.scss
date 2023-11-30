@@ -1,0 +1,37 @@
+.apartmentPrev {
+    width: 100%;
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    div {
+        background-color: rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+    h3 {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        z-index: 4;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    
+}

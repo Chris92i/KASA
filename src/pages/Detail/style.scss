@@ -1,0 +1,81 @@
+.page_logement{
+    width: 1240px;
+    height: 1024px;
+    top: 951px;
+    left: -543px;
+
+}
+
+.sousCarousel_container{
+    display: flex;
+    flex-direction: row;
+    //width: 1240px;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bloc1{
+    width: 50%;
+}
+
+.bloc2{
+    width: 50%;
+}
+
+.nomLocalisation{
+    justify-content: flex-start;
+    font-family: Montserrat;
+    color: #FF6060;
+}
+
+.localisation_container{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.tags_container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.host_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.collapse_container_page{
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-between;
+    width: 1240px;
+}
+
+.collapse_unite{
+    //display: flex;
+    //flex-direction: column;
+    width: 582px;
+}
+
+.rating{
+    width: 196px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.rating_container{
+    display: flex;
+    justify-content: flex-end;
+    //width: 196px;
+    height: 36px;
+    flex-shrink: 0;
+}

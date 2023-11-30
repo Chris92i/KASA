@@ -1,0 +1,33 @@
+.header_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    //max-width: 98%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    //margin: auto;
+    width: 1240px;
+    height: 68px;
+    top: 40px;
+    left: 100px;
+}
+
+.navigation{
+    width: 309px;
+    height: 34px;
+    top: 17px;
+    left: 931px;
+    color:#FF6060 !important;
+
+}
+
+.active {
+    text-decoration: underline;
+    color:#FF6060 !important;
+}
+
+a:visited {
+    color: #FF6060;
+}
+
