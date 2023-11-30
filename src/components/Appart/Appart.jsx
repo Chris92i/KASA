@@ -7,7 +7,7 @@ function Appart({cover, title}){
         <div className="apartmentPrev">
         <h3>{title}</h3>
         <div></div>
-        <img src={cover} alt="Image de présentation de l'apparmtement" />
+        <img src={cover} alt="présentation de l'appartement" />
         </div>
     )
 }

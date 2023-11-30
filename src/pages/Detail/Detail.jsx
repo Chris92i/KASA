@@ -23,12 +23,13 @@ function Detail() {
     });
     const cards = await response.json();
     console.log(cards);
-    const apartment = cards.find((apartment) => apartment.id == id);
+    const apartment = cards.find((apartment) => apartment.id === id);
     setData(apartment);
   };
   useEffect(() => {
     getData();
-  }, []);
+  });
+  //}, []);
 
   if (!data) return <Error />;
   console.log(data);
