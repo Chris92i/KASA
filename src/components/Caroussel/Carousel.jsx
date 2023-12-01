@@ -32,9 +32,9 @@ const Carousel = ({ slides = [] }) => {
             {
               slides.length>1 && (
               <>
-              <button onClick={goPrev}><img className='chevron_avant' src={Arrow} alt='fleche avant'/></button>
+              <img className='chevron_avant' onClick={goPrev} src={Arrow} alt='fleche avant'/>
               <span>{index +1}/{slides.length}</span>
-              <button onClick={goNext}><img className='chevron_arriere' src= {Arrow} alt='fleche arriere'/></button>
+              <img className='chevron_arriere' onClick={goNext} src= {Arrow} alt='fleche arriere'/>
               </>
               )
             }

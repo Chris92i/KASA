@@ -26,6 +26,7 @@
     height: 249px;
     top: 42px;
     border-radius: 10px;
+    width: auto;
 
 
     background-color: #F6F6F6;
@@ -40,14 +41,14 @@
 }
 
 .collapse_container{
-    display: flex;
-    margin: auto;
+    //display: flex;
+    //margin: auto;
     padding: auto;
     width: 80%;
 }
 
 .about-content{
-    width: 582px;
+    width: auto;
     height: 249px;
     top: 42px;
     border-radius: 10px;
@@ -72,3 +73,12 @@
     color: #FFFFFF;
 
 }
+
+.arrow_container{
+    position: relative;
+}
+
+.title_collapse{
+    position: relative;
+}
+

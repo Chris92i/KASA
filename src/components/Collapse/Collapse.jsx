@@ -19,8 +19,12 @@ function Collapse ({content, decoration}){
             <div className='collapse_container'>
                 {/* Toggle appel de la fonctione avec l'inverse de la valeur actuelle */}
                 <button className='collapseStyle' onClick={() => setIsClose(!isClose)}>
+                    <span className='title_collapse'>
                     {title}
+                    </span>
+                    <span className='arrow_container'>
                     <img className='arrow_Collapse' style={{transform: isClose? 'rotate(180deg)' : 'none', transition: 'transform 0.3s'}} src={Arrow} alt="chevron collapse" />
+                    </span>
                 </button>
                 {/* Si isClose est vrai et equipments existe, alors une liste d’équipements est rendue. */}
                 {isClose && equipments && (

@@ -56,14 +56,16 @@
 .collapse_container_page{
     display: flex;
     flex-direction: raw;
-    justify-content: space-between;
+    //justify-content: space-between;
     width: 1240px;
 }
 
 .collapse_unite{
     //display: flex;
     //flex-direction: column;
-    width: 582px;
+    //width: 582px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .rating{
