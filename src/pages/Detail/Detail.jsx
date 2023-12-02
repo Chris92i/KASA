@@ -61,7 +61,7 @@ function Detail() {
             </div>
           </div>
         </div>
-        <div className="collapse_container_page">
+        <div className="collapse_container_detail">
           <div className="collapse_unite collapse_unite_1">
           <Collapse
                         content={{
