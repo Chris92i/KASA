@@ -9,7 +9,7 @@ function Nav() {
       </NavLink>
 
       <NavLink to="/about" className="nav_Header_about">
-        A propos
+        A Propos
       </NavLink>
     </nav>
   );
