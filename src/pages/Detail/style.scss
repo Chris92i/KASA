@@ -55,9 +55,10 @@
 
 .collapse_container_page{
     display: flex;
-    flex-direction: raw;
+    flex-direction: row;
     //justify-content: space-between;
-    width: 1240px;
+    //width: 1240px;
+    width: 100%;
 }
 
 .collapse_unite{
