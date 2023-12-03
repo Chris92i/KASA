@@ -62,20 +62,31 @@
     width: 100%;
 }
 
-.collapse_unite{
+.collapse_unite_A{
     //display: flex;
     //flex-direction: column;
-    //width: 582px;
+    width: 50%;
     display: flex;
     //justify-content: flex-start;
 }
 
+.collapse_unite_B{
+    //display: flex;
+    //flex-direction: column;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 .collapse_unite_1{
-    
+    width: 80%;
 }
 
 .collapse_unite_2{
+    width: 80%;
     justify-content: flex-end;
+
 }
 
 
