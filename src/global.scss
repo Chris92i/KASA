@@ -9,7 +9,15 @@ body {
     font-family: "Montserrat", "Arial";
     height: 100%;
     width: 100%;
-    min-height: 100vh;
+
+}
+
+/* Pour les petits écrans (téléphones mobiles) */
+@media only screen and (max-width: 480px) {
+    #root {
+        height: 100vh;
+        width: 100vw;
+    }
 }
 
 ul,

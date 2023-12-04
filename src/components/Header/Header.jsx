@@ -9,7 +9,7 @@ function Header(){
             <div className='header_container'>
                 <div className='logoHeader'> 
                     <Link to='/' >
-                        <img src={logo}  alt='logo kasa'/> 
+                        <img className='logo_header' src={logo}  alt='logo kasa'/> 
                     </Link>
                 </div>
                 <Nav className='navigation'/>

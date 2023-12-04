@@ -15,6 +15,30 @@
 @media screen and (max-width: 480px) {
     .header_class {
         flex-direction: column;
+        max-width: 335px;
+        height: 100vh;
+    }
+    .logoHeader{
+        max-width: 145px;
+        height: auto;
+
+    }
+
+    .logo_header {
+        max-width: 145px;
+        height: auto;
+    }
+    .navigation{
+        max-width: 140px;
+        height: 17px;
+        flex-shrink: 0;
+
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: right;
     }
 }
 
