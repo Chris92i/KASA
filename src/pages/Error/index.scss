@@ -25,15 +25,24 @@
   left: 432px;
   
 
-
+  /*
   color: #FF6060;
   text-align: center;
   font-family: Montserrat bold;
   font-size: 288px;
   font-style: normal;
   font-weight: 700;
+  */
   //line-height: 142.6%; /* 410.688px */
   margin-bottom: 66px;
+
+  color: #FF6060;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 288px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 142.6%; /* 410.688px */
   
 
   &_oups {
@@ -59,7 +68,13 @@
 
 @media (max-width: 600px) {
   .erreur {
-    font-size: calc(1.75rem + 2vw);
+    color: #FF6060;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 142.6%; /* 136.896px */
   }
 
   .erreur_oups {
