@@ -1,4 +1,3 @@
-// pour récupérer l'identifiant dans l'url il faut utiliser use params
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Tag from "../../components/Tag/Tag";
@@ -11,9 +10,14 @@ import Rating from "../../components/Rating/Rating";
 import Collapse from "../../components/Collapse/Collapse";
 
 function Detail() {
+  // pour récupérer l'identifiant dans l'url il faut utiliser use params
   const { id } = useParams();
   console.log(id);
+
+  // utilisation du hook useState pour créer une variable d’état data qui stocke les détails du logement.
   const [data, setData] = useState([0]);
+
+  // Utilisation d'une fonction asynchrone pour récupérer les données du logement à partir d’un fichier JSON local.
   const getData = async () => {
     const response = await fetch("../logements.json", {
       headers: {
@@ -26,14 +30,21 @@ function Detail() {
     const apartment = cards.find((apartment) => apartment.id === id);
     setData(apartment);
   };
+  
+  // Uitilisation du hook useEffect pour appeler la fonction getData qui récupère les données du logement à partir d’un fichier JSON local.
   useEffect(() => {
     getData();
   });
+
   //}, []);
 
+
+  // Rendu Conditionnel Si data est nul, le composant Error est rendu.
   if (!data) return <Error />;
   console.log(data);
 
+
+  //Sinon, un ensemble de composants est rendu avec les détails du logement.
   return (
     <>
       <div className="page_logement">

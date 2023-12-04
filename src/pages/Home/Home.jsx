@@ -7,6 +7,7 @@ import { useLocation } from "react-router-dom";
 
 
 function Home(){
+    // utilisation du hook useLocation de react-router-dom pour avoir des informations sur l'URL actuelle
     const location = useLocation()
 
     //Utilise le hook useState pour déclarer une variable d’état data et une fonction setData pour mettre à jour cette variable. L’état initial est un tableau vide.

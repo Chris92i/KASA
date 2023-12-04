@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1240px;
+    max-width: 1240px;
     height: 223px;
     top: 171px;
     left: 100px;
@@ -14,6 +14,7 @@
     //background-image: url('/src/assets/homeBanner.png');
     background-size: cover;
     background-repeat: no-repeat;
+
 
 
 }
