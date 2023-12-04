@@ -19,6 +19,28 @@
 
 }
 
+@media all and (max-width: 450px) {
+   .banner_container{
+    //width: 100vw;
+    height: 111px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+   } 
+   .banner_text{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 24px */
+
+
+   }
+}
+
+
+
 .banner_container .banner_text{
     display: flex;
     align-items: center;
