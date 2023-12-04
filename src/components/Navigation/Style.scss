@@ -23,10 +23,8 @@
   line-height: 142.6%; /* 34.224px */
 }
 
-
 .nav_Header_about {
   width: 116px;
-
   color: #ff6060;
   text-align: right;
   font-family: Montserrat;
@@ -35,3 +33,28 @@
   font-weight: 500;
   line-height: 142.6%; /* 34.224px */
 }
+
+@media screen and (max-width: 480px) {
+  .nav_Header_home{
+    color: #FF6060;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 17.112px */
+    text-decoration-line: underline;
+  }
+
+  .nav_Header_about{
+    color: #FF6060;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 17.112px */
+  }
+}
+
+
