@@ -26,3 +26,8 @@
     //height: 1024px;
 }
 
+@media all and (max-width: 450px) {
+    .About{
+        height: 100vh;
+    }
+}
