@@ -115,9 +115,11 @@
 .sousCarousel_container{
     display: flex;
     flex-wrap: wrap;   
+    margin: 20px;
 }
 .bloc1{
     width: 100%;
+    margin: auto;
 }
 
 .bloc2{
@@ -125,6 +127,24 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
+    margin-top: 20px;
 }
 
+.collapse_container_detail{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 90%;
+}
+.collapse_unite_A, .collapse_unite_B{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.collapse_unite_1{
+    width: 100%;
+}
+.collapse_unite_2{
+    width: 100%;
+}
 }
