@@ -1,7 +1,8 @@
 import './style.scss'
 import { useLocation } from 'react-router-dom'
 import backHome from '../../assets/homeBanner.png'
-import backAbout from '../../assets/aboutBanner.png'
+
+import backAbout from '../../assets/new-montagne-about.png'
 
 
 function Banner(){
