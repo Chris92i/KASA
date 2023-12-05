@@ -1,5 +1,6 @@
 .page_logement{
-    width: 1240px;
+    width: 100%;
+    max-width: 1240px;
     height: 100%;
     top: 951px;
     left: -543px;
@@ -60,6 +61,7 @@
     //justify-content: space-between;
     //width: 1240px;
     width: 100%;
+    margin-bottom: 80px;
 }
 
 .collapse_unite_A{
