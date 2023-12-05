@@ -48,6 +48,7 @@
   filter: brightness(0.8);
   max-width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 @media all and (max-width: 450px) {

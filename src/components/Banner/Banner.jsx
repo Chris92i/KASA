@@ -37,7 +37,6 @@ return(
             src={bannerImage} 
             alt="nature" 
         />
-
     </div>
 )
 
