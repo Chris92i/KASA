@@ -46,7 +46,7 @@
   border-radius: 25px;
   //width: 100%;
   filter: brightness(0.8);
-  max-width: 100%;
+  //max-width: 100%;
   height: auto;
   object-fit: cover;
 }
@@ -58,7 +58,7 @@
     height: 111px;
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 0 20px;
     font-size: 24px;
   }
 .About .banner_container_about{
