@@ -29,10 +29,14 @@ function Banner(){
 console.log ('bannerimage',bannerImage)
 
 return(
-    <div className="banner_container banner_container_about" style={{ backgroundImage: `url(${bannerImage})`}}>
-        <div className="banner_container_text">
-            <div className="banner_text">{bannerText}</div>
-        </div>
+    <div className="banner_container banner_container_about">
+        <h1 className='banner_text'>{bannerText}</h1>
+        <img 
+            className='img-header'
+            src={bannerImage} 
+            alt="nature" 
+        />
+
     </div>
 )
 

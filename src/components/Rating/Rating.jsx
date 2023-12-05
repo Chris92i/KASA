@@ -22,7 +22,7 @@ function Rating({ note = 0 }){
 
     return(
         <>
-            <p>{tabNote}</p>
+            <p className='star'>{tabNote}</p>
         </>
     )
 

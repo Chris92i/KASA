@@ -1,6 +1,6 @@
 .page_logement{
     width: 1240px;
-    height: 1024px;
+    height: 100%;
     top: 951px;
     left: -543px;
 
@@ -80,17 +80,14 @@
 
 
 .collapse_unite_1{
-    width: 80%;
+    width: 92%;
 }
 
 .collapse_unite_2{
-    width: 80%;
+    width: 92%;
     justify-content: flex-end;
 
 }
-
-
-
 
 .rating{
     width: 196px;
@@ -110,7 +107,7 @@
 @media all and (max-width: 450px) {
 .page_logement{
     width: 100vw;
-    height: 100vh;
+    //height: 100vh;
 }
 .sousCarousel_container{
     display: flex;
@@ -146,5 +143,9 @@
 }
 .collapse_unite_2{
     width: 100%;
+}
+
+.star{
+    margin-top: 12px;
 }
 }
