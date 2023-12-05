@@ -11,33 +11,17 @@
 
   border-radius: 25px;
   z-index: 0;
-  //filter: brightness(0.7);
-  //opacity: 30%;
-  //mix-blend-mode: darken;
-  //background-image: url('/src/assets/homeBanner.png');
+
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 
-/*
-.banner_container .banner_text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  //top: 249px;
-  //left: 373px;
-  color: #ffffff !important;
-  z-index: 1;
-}
-*/
-
 .banner_container {
   display: flex;
   align-items: center;
   justify-content: center;
-  //top: 249px;
-  //left: 373px;
+
   color: #ffffff !important;
   z-index: 1;
 }
@@ -45,26 +29,21 @@
 
 
 .banner_text {
-  /*
-  z-index: 2;
-  color: #ffffff !important;
-  text-align: center;
-  font-family: Montserrat;
-  font-weight: 500;
-  font-size: 48px;
-  */
+
   position: absolute;
   top: 50%;
   left: 50%; 
-  transform: translate(-50%, -50%); /* Décale le texte de 50% vers la gauche et vers le haut pour le centrer parfaitement */
-  width: 100%; /* Assure que le texte s'étend sur toute la largeur */
+  transform: translate(-50%, -50%);
+  width: 100%;
   color: white;
+
+  z-index: 1000;
 }
 
 .img-header{
   border-radius: 25px;
   width: 100%;
-
+  filter: brightness(0.8);
 }
 
 @media all and (max-width: 450px) {
