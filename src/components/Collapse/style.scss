@@ -21,9 +21,12 @@
     justify-content: space-between;
 
 }
-.contenuCollapse{
+
+/*
+.collapse_container .contenuCollapse-about{
+    
     //width: 582px;
-    height: 249px;
+    max-height: 249px;
     top: 42px;
     border-radius: 10px;
     width: auto;
@@ -32,13 +35,34 @@
 
     background-color: #F6F6F6;
 
+    color: #FF6060;
     font-family: Montserrat;
-    //font-weight: 400;
-    //size: 24px;
-    //line-height: 34.22px;
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142.6%;
 
     color:#FF6060;
     
+}
+*/
+
+.About .contenuCollapse-about{
+    color: #FF6060;
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142.6%; /* 34.224px */
+
+    min-height: 249px;
+    padding-top: 40px;
+    padding-right: 12px;
+    padding-left: 20px;
+
+    background-color: #F6F6F6;
+    border-radius: 10px;
 }
 
 .collapse_container{
@@ -60,12 +84,41 @@
 
     background-color: #F6F6F6;
 
+
+}
+
+.contenuCollapse{
     font-family: Montserrat;
     font-weight: 400;
     size: 18px;
     line-height: 25.67px;
 
     color:#FF6060;
+
+
+    padding-top: 40px;
+    padding-right: 12px;
+    padding-left: 20px;
+
+    background-color: #F6F6F6;
+    border-radius: 10px;
+
+    height: 249px;
+}
+
+.about-content-detail{
+
+    font-family: Montserrat;
+    font-weight: 400;
+    size: 18px;
+    line-height: 25.67px;
+
+    color:#FF6060;
+
+
+    padding-top: 40px;
+    padding-right: 12px;
+    padding-left: 20px;
 }
 
 .arrow_Collapse{
@@ -103,5 +156,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 142.6%; /* 17.112px */
+
+       
     }
 }

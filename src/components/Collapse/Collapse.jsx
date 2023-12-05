@@ -28,7 +28,7 @@ function Collapse ({content, decoration}){
                 </button>
                 {/* Si isClose est vrai et equipments existe, alors une liste d’équipements est rendue. */}
                 {isClose && equipments && (
-                    <div className="about-content">
+                    <div className="about-content about-content-detail">
                     {/* Chaque équipement est rendu comme un élément de liste.*/}
                     {equipments.map((equipment, index) => {
                         return (
@@ -42,7 +42,7 @@ function Collapse ({content, decoration}){
                 )}
                 {/* Si isClose est vrai et reply existe, alors le contenu de reply est rendu. */}
                 {isClose && reply && (
-                    <div className='contenuCollapse'>
+                    <div className='contenuCollapse contenuCollapse-about'>
                         {reply}   
                     </div>
                 )}

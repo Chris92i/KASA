@@ -1,4 +1,4 @@
-import styles from './index.scss?inline'
+import './index.scss'
 import { useLocation } from 'react-router-dom'
 import Banner from '../../components/Banner/Banner'
 import Collapse from '../../components/Collapse/Collapse'
@@ -33,6 +33,7 @@ function About(){
     const location = useLocation()
     console.log('page:',location)
 
+
     return (
         <>
             <div className='About'>
@@ -45,7 +46,6 @@ function About(){
                             reply: reply,
                         } 
                          }
-                         decoration = {styles}
                          />
                       )
                       )  
