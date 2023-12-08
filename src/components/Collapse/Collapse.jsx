@@ -3,7 +3,7 @@ import Arrow from '../../assets/arrow_back_ios-24px 3.svg'
 
 import { useState } from 'react'
 
-function Collapse ({content, decoration}){
+function Collapse ({content}){
     
     //destructuration de l'objet content pour récupérer les propriétés title, reply, equipements
     const { title, reply, equipments } = content
@@ -11,13 +11,13 @@ function Collapse ({content, decoration}){
     // etat initiale à false
     const [isClose, setIsClose] = useState(false);
 
-    console.log( "test",content)
-    console.log( "tes2", title)
+    //console.log( "test",content)
+    //console.log( "tes2", title)
     
     return(
         <>
             <div className='collapse_container'>
-                {/* Toggle appel de la fonctione avec l'inverse de la valeur actuelle */}
+                {/* Toggle appel de la fonction avec l'inverse de la valeur actuelle */}
                 <button className='collapseStyle' onClick={() => setIsClose(!isClose)}>
                     <span className='title_collapse'>
                     {title}
